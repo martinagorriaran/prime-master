@@ -12,7 +12,8 @@ import { CuartopComponent } from './cuartop/cuartop.component';
 import { FooterComponent } from './footer/footer.component';
 import { PruebasComponent } from './pruebas/pruebas.component';
 
-
+import {GMapModule} from 'primeng/gmap';
+import { MessageService } from 'primeng/api/messageservice';
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -28,6 +29,8 @@ import { PruebasComponent } from './pruebas/pruebas.component';
     CommonModule,
     SharedModule,
     DashboardRoutingModule,
+    GMapModule,
+    
   ],
 
   exports:[
@@ -36,6 +39,10 @@ import { PruebasComponent } from './pruebas/pruebas.component';
     TercerpComponent,
     CuartopComponent,
     // FooterComponent,
-  ]
+  ],
+
+  // providers:[
+  //   MessageService,
+  // ]
 })
 export class DashboardModule { }

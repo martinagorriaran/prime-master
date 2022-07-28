@@ -118,7 +118,7 @@
   .card {
     height: 379px;
     width: 300px;
-    background: #808080;
+    background: #fff;
     border-radius: 10px;
     transition: background 0.8s;
     overflow: hidden;
@@ -173,7 +173,7 @@
   }
   h2 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin: 20px;
     opacity: 0;
     transition: opacity 1s;

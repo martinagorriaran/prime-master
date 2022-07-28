@@ -45,10 +45,12 @@
   ****************************************************/
   /* Barra de navegacion (contiene al nav mini menu) */
   .navbar-menu {
-    background-color: #F08080;
+    background-color: #000000;
     /* margin: 2% auto;
     max-width: 1000px; */
     width: calc(100%) important;
+    
+    
   }
   
   /* Menu */
@@ -60,6 +62,7 @@
   /* List items*/
   .navbar-menu .menu li {
     display: inline-block;
+    
   }
   
   /* Cuando se haga hover sobre el item el submenu se activa
@@ -72,7 +75,7 @@
   
   /* Submenus*/
   .navbar-menu .menu li ul {
-    background-color: #f08080;
+    background-color: #000000;
     display: none;
     position: absolute;
   }
@@ -92,7 +95,7 @@
   ******************************************************/
   /* Mini menu */
   .navbar-mini-menu {
-    background-color: #f08080;
+    background-color: #000000;
     display: none;
   }
   

@@ -10,7 +10,7 @@ body {
 .footer{
     z-index: 1;
     --footer-background:#000000;
-    margin-right: 300PX;
+    width: 100vw;
     display:grid;
     position: relative;
     grid-area: footer;
@@ -23,7 +23,10 @@ body {
     right:0;
     height:1rem;
     background:var(--footer-background);
-    filter:url("#blob");}
+    filter:url("#blob");
+    width: 100vw;
+  }
+   
 
 .bubble {
     position: absolute;

@@ -24,13 +24,12 @@ import {ButtonModule} from 'primeng/button';
 
 import { InputTextModule } from "primeng/inputtext";
 
-import {GMapModule} from 'primeng/gmap';
+
 
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PrimerpComponent } from './components/dashboard/primerp/primerp.component';
 import { SegundpComponent } from './components/dashboard/segundp/segundp.component';
 import { TercerpComponent } from './components/dashboard/tercerp/tercerp.component';
-
 import { SharedModule } from 'primeng/api';
 import { DashboardModule } from './components/dashboard/dashboard.module';
 import { MenubarComponent } from './components/menubar/menubar.component';
@@ -43,6 +42,7 @@ import { FooterComponent } from './components/dashboard/footer/footer.component'
      InicioComponent,
      MenubarComponent,
      FooterComponent,
+     
     // PrimerpComponent,
     // SegundpComponent,
     // TercerpComponent
@@ -63,7 +63,8 @@ import { FooterComponent } from './components/dashboard/footer/footer.component'
     CommonModule,
     FormsModule,
     InputTextModule,
-    GMapModule,
+   
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
