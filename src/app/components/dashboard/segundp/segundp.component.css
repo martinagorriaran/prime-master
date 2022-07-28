@@ -1,0 +1,39 @@
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.phrasee{
+    font-family: 'Koulen', cursive;
+    font-size: 100PX;
+    
+} */
+
+.image-container{
+    height: 200px;
+    width: 330PX;
+}
+
+.page-padding {
+    padding-right: 56px;
+    padding-left: 56px;
+}
+
+.contenedor-cards-servicios{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10PX;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#sub:hover{
+    background-size: 100% 2px;
+}
+
+.image-container:hover .image{
+    transform: scale(1.2);
+}

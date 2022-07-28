@@ -1,0 +1,93 @@
+/* @import "~swiper/css"; */
+ /* @import "~swiper/css/effect-coverflow";
+@import "~swiper/css/pagination";  */
+
+.leftcontainer{
+background-color: saddlebrown;
+}
+
+.page-padding {
+    padding-right: 56px;
+    padding-left: 56px;
+}
+
+
+.hola{
+    min-height: 100vh; 
+}
+.reseñas{
+    height: 300px;
+}
+.img{
+    height: 650px;
+    width: 1385px;
+    
+}
+
+#reseña{
+    height: 330px;
+}
+
+.cartaconhover:hover{
+    transform: translateY(-15px);
+
+
+}
+
+.cartaconhover{
+  width: 300px;
+  
+
+}
+
+.cards{
+    display: flex;        
+
+    justify-content: center;
+}
+
+
+
+.footer {
+    padding-top: 66px;
+    padding-bottom: 24px;
+    background-color: #f9f9fb;
+    color: #8f96bd;
+}
+
+.page-padding {
+    padding-right: 56px;
+    padding-left: 56px;
+}
+
+    
+
+
+.space-evenly { 
+    display: flex;   
+    justify-content: space-evenly; 
+}
+
+.p-menubar{
+    background-color: #ffff;
+
+   
+}
+
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text{
+    color: black;
+}
+
+
+.p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background-color: #852531;
+}
+
+
+
+.p-button.p-button-outlined {
+    background-color: transparent;
+    color: #852531;
+    border: 1px solid;
+}
+

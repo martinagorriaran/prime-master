@@ -1,0 +1,18 @@
+[
+    {
+        "nombre":"inicio",
+        "redirect":"/inicio"
+    },
+    {
+        "nombre":"Primerp",
+        "redirect":"/dashboard/primerp"
+    },
+    {
+        "nombre":"Segundp",
+        "redirect":"/dashboard/segundp"
+    },
+    {
+        "nombre":"Tercerp",
+        "redirect":"/dashboard/tercerp"
+    }
+]
